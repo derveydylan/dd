@@ -8,6 +8,9 @@
 // https://fonts.google.com/specimen/Istok+Web
 @import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+/* Font Awesome Icons */
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
 
 /* Color palette */
 // https://coolors.co/221e34-4b3f72-9067c6-ca82de-6bbaeb-feeafa-3a3b40-111111-ebebeb
@@ -37,8 +40,29 @@ body
     font-size: 14px;
 }
 
+/* Titles */
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Josefin Sans', monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Links */
 a, a:visited
 {
-    color: inherit;
+    color: var(--maya-blue);
     text-decoration: none;
+    transition: 0.5s;
+
+    &:hover
+    {
+        color: var(--french-mauve);
+    }
+}
+
+/* Lists */
+li
+{
+    list-style-type: none;
 }

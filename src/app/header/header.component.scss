@@ -1,7 +1,12 @@
 header
 {
-    position: sticky;
     background-color: var(--dark-purple);
+
+    & *:hover
+    {
+        font-weight: normal;
+        text-decoration: none;
+    }
 }
 
 nav
