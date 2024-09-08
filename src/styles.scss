@@ -48,8 +48,19 @@ h1, h2, h3, h4, h5, h6
     padding: 0;
 }
 
+h1
+{
+    font-size: 64px;
+    margin: 15px auto;
+}
+
 /* Links */
-a, a:visited
+a
+{
+    text-decoration: none;
+}
+
+a:not(.btn), a:not(.btn):visited
 {
     color: var(--maya-blue);
     text-decoration: none;
@@ -65,4 +76,14 @@ a, a:visited
 li
 {
     list-style-type: none;
+}
+
+/* Buttons */
+.btn
+{
+
+    .btn-primary
+    {
+
+    }
 }
